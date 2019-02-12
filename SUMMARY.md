@@ -5,5 +5,5 @@
 
 ## Instant Messaging
 
-* [WeChat API](instant-messaging/wechat-api.md)
+* [WeChat 公眾號的比較](instant-messaging/wechat-api.md)
 

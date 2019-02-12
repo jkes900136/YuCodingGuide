@@ -1,4 +1,43 @@
-# WeChat API
+# WeChat 公眾號的比較
 
-[http://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index](http://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index)
 
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">公眾號</th>
+      <th style="text-align:left">訂閱號</th>
+      <th style="text-align:left">服務號</th>
+      <th style="text-align:left">企業微信（原企業號）</th>
+      <th style="text-align:left">小程序</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">公眾號的範圍是最廣的， 即“微信公眾平臺”，公眾號包括： 訂閱號、 服務號、企業微信（原企業號）、小程序</td>
+      <td style="text-align:left">
+        <p>主要偏于為用戶傳達資訊（類似報紙雜誌），適合個人和小規模的組織申辦。</p>
+        <p>與服務號最大的差異在：</p>
+        <p>1. 無法使用微信支付與微信小店（網路商店服務）</p>
+        <p>2. 訊息顯示在「訂閱號」訊息分類內</p>
+      </td>
+      <td style="text-align:left">
+        <p>主要偏於服務交互（類似銀行客服專線，提供服務查詢），費用較高，不適合個人申辦。</p>
+        <p>與訂閱號最大的差異在：</p>
+        <p>1. 可以完整使用微信支付與微信小店（網路商店服務）</p>
+        <p>2. 訊息直接顯示在好友對話列表內</p>
+      </td>
+      <td style="text-align:left">
+        <p>主要用於公司內部通訊使用，需要先驗證身份才可以成功關注企業號。受眾一般是這個企業的員工， 比如開發“百度企業號”， 那麼只有百度的員工才能看到，
+          裡面盡是一些跟百度相關的內如， 如招聘、行政、福利等。非百度人看不到。</p>
+        <p>它包括一些為企業所設計的功能：</p>
+        <p>上下班打卡、審批公文、與微信互通聊天（可以設定無法轉傳的訊息）、撥打公費電話、視訊會議、建立群組對話、匯入企業通訊錄、整合企業Email、匯報工作進度、企業（微信）支付、設定通訊錄查看權限等</p>
+      </td>
+      <td style="text-align:left">
+        <p>微信小程序是嵌入在微信軟體內的應用程式，能獨立於公眾號運作，也能在绑定公眾號後，使用發訊與支付的功能。</p>
+        <p>可以用來開發與執行一般手機APP才能做到的事情，像是控制手機拍照、管理手機檔案、取得手機GPS位置、取得手機硬體規格等。</p>
+        <p>它是一種全新的連接用戶與服務的方式，它可以在微信內被便捷地獲取和傳播，同時具有出色的使用體驗。</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
