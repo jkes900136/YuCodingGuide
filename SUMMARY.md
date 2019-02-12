@@ -1,6 +1,6 @@
 # Table of contents
 
-* [WeChat API](README.md)
+* [Yu's Coding Guide](README.md)
 * [Testing](testing.md)
 
 ## Instant Messaging
