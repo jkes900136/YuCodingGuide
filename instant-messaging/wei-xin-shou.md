@@ -9,7 +9,7 @@
 
 2、授權回調域名配置規範為全域名，比如需要網頁授權的域名為：www.qq.com，配置以後此域名下面的頁面http://www.qq.com/music.html 、 http://www.qq.com/login.html 都可以進行OAuth2.0鑒權。但http://pay.qq.com 、 http://music.qq.com 、 http://qq.com無法進行OAuth2.0鑒權
 
-![](file:///C:/Users/cy/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+![](../.gitbook/assets/wechatoauth.png)
 
 圖一
 
