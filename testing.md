@@ -1,4 +1,0 @@
-# Testing
-
---TypeScirpt Testing
-
