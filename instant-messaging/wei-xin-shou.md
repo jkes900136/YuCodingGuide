@@ -24,7 +24,7 @@ redirect\_uri  可以使用[https://meyerweb.com/eric/tools/dencoder/](https://m
 
 範例：
 
-https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx94d45a495b558370&redirect\_uri=https%3A%2F%2Flife-academy-ca18f.firebaseapp.com&response\_type=code&scope=snsapi\_base&state=STATE\#wechat\_redirect
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx94d45a495b558000&redirect\_uri=https%3A%2F%2Flife-academy-ca18f.firebaseapp.com&response\_type=code&scope=snsapi\_base&state=STATE\#wechat\_redirect
 
 尤其注意：跳轉回調redirect\_uri，應當使用https鏈接來確保授權code的安全性。
 
@@ -50,7 +50,7 @@ STATE說明：重定向後會帶上state參數，開發者可以填寫a-zA-Z0-9�
 
 首先請注意，這裡通過code換取的是一個特殊的網頁授權access\_token,與基礎支持中的access\_token（該access\_token用於調用其他接口）不同。公眾號可通過下述接口來獲取網頁授權access\_token。當網頁授權的作用域為snsapi\_base時，則本步驟中獲取到網頁授權access\_token的同時，也獲取到了openid，snsapi\_base式的網頁授權流程即到此為止。
 
-獲取code後，請求以下鏈接獲取access\_token：  https://api.weixin.qq.com/sns/oauth2/access\_token?appid=wx94d45a495b558370&secret=2d982455b25f2be4c92e4ba2de2800a3&code=0215P6z10OzbBE1GcyC10ivcz105P6zG&grant\_type=authorization\_code
+獲取code後，請求以下鏈接獲取access\_token：  https://api.weixin.qq.com/sns/oauth2/access\_token?appid=wx94d45a495b558000&secret=2d982455b25f2be4c92e4ba2de2800g3&code=0215P6z10OzbBE1GcyC10ivcz105P6zG&grant\_type=authorization\_code
 
 參數說明
 
@@ -88,7 +88,7 @@ STATE說明：重定向後會帶上state參數，開發者可以填寫a-zA-Z0-9�
 **請求方法**
 
 獲取第二步的refresh\_token後，請求以下鏈接獲取access\_token：  
- https://api.weixin.qq.com/sns/oauth2/refresh\_token?appid=wx94d45a495b558370&grant\_type=refresh\_token&refresh\_token=11\_ajetRUV6GJPJsli\_II9gzJBGRe8W0QtJnw85fdniWK0l2dEd\_zbV245W34MiyOciCUiDBVpjdWeDPtFDBHPKKiYqrGo1jzfOuQYetZXa9Qo
+ https://api.weixin.qq.com/sns/oauth2/refresh\_token?appid=wx94d45a495b558000&grant\_type=refresh\_token&refresh\_token=11\_ajetRUV6GJPJsli\_II9gzJBGRe8W0QtJnw85fdniWK0l2dEd\_zbV245W34MiyOciCUiDBVpjdWeDPtFDBHPKKiYqrGo1jzfOuQYetZXa9Qo
 
 | **參數** | **是否必須** | **說明** |
 | :--- | :--- | :--- |
