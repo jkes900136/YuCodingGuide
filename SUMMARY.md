@@ -13,6 +13,7 @@
 
 * [Node.js TypeScript環境建置](node.js/node.js-typescript-jing-jian-zhi.md)
 * [Angular HttpClient](node.js/angular-httpclient.md)
+* [AJAX and Open Data](node.js/ajax-and-open-data.md)
 
 ## C\#/ASP.NET \(MVC\)\(Core\)
 
