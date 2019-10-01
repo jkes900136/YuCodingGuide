@@ -27,5 +27,14 @@
 
 ## SQL
 
-* [Linq To Sql - Dynamic OrderBy - Case When](sql/untitled.md)
+* [SQL Server: How do you remove punctuation from a field?](sql/untitled.md)
+
+## Git
+
+* [git clone: Authentication failed for &lt;URL&gt;](git/git-clone-authentication-failed-for-less-than-url-greater-than.md)
+
+## Cloud VM <a id="cloudvm"></a>
+
+* [匯入虛擬磁碟](cloudvm/hui-ru-xu-ni-ci-die.md)
+* [Install and configure Remote Desktop to connect to a Linux VM in Azure](cloudvm/install-and-configure-remote-desktop-to-connect-to-a-linux-vm-in-azure.md)
 
