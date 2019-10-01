@@ -8,6 +8,7 @@
 * [WeChat 群發比較](instant-messaging/wechat-qun.md)
 * [微信網頁授權](instant-messaging/wei-xin-shou.md)
 * [Line與WeChat格式轉換](instant-messaging/linewechat-ge-shi.md)
+* [WHATSAPP 入門指南](instant-messaging/whatsapp-ru-men-zhi-nan.md)
 
 ## Javascript/Node.js <a id="node.js"></a>
 
@@ -15,6 +16,7 @@
 * [Angular HttpClient](node.js/angular-httpclient.md)
 * [AJAX and Open Data](node.js/ajax-and-open-data.md)
 * [&lt;input type="datetime-local"&gt;](node.js/ajax-type-ahead.md)
+* [AngularJS - Trigger when radio button is selected](node.js/angularjs-trigger-when-radio-button-is-selected.md)
 
 ## C\#/ASP.NET \(MVC\)\(Core\)
 
