@@ -17,6 +17,9 @@
 * [AJAX and Open Data](node.js/ajax-and-open-data.md)
 * [&lt;input type="datetime-local"&gt;](node.js/ajax-type-ahead.md)
 * [AngularJS - Trigger when radio button is selected](node.js/angularjs-trigger-when-radio-button-is-selected.md)
+* [Angularjs jQuery Datepicker](node.js/angularjs-jquery-datepicker.md)
+* [Detect HTTP or HTTPS then force HTTPS in JavaScript](node.js/detect-http-or-https-then-force-https-in-javascript.md)
+* [How TO - CSS/JS Modal](node.js/how-to-css-js-modal.md)
 
 ## C\#/ASP.NET \(MVC\)\(Core\)
 
@@ -39,4 +42,11 @@
 
 * [匯入虛擬磁碟](cloudvm/hui-ru-xu-ni-ci-die.md)
 * [Install and configure Remote Desktop to connect to a Linux VM in Azure](cloudvm/install-and-configure-remote-desktop-to-connect-to-a-linux-vm-in-azure.md)
+
+## TLS
+
+* [SSL Server Test](tls/ssl-server-test.md)
+* [SSL For Free](tls/ssl-for-free.md)
+* [強迫網站轉向到 HTTPS 加密安全連線 \( IIS URL Rewrite \)](tls/jiang-po-wang-zhan-zhuan-xiang-dao-https-jia-mi-an-quan-lian-xian-iis-url-rewrite.md)
+* [Windows 停用 TLS 1.0 之配套作業整理](tls/windows-ting-yong-tls-1.0-zhi-pei-tao-zuo-ye-zheng-li.md)
 
