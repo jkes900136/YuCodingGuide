@@ -33,6 +33,7 @@
 
 ## SQL
 
+* [Can a foreign key be NULL and/or duplicate?](sql/can-a-foreign-key-be-null-and-or-duplicate.md)
 * [SQL Server: How do you remove punctuation from a field?](sql/untitled.md)
 
 ## Git
