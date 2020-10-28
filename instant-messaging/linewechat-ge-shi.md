@@ -169,7 +169,9 @@ WeChat自定義菜單 \[2\]
       </td>
     </tr>
   </tbody>
-</table>**WeChat發送文本消息 \[4\]**
+</table>
+
+**WeChat發送文本消息 \[4\]**
 
 {
 

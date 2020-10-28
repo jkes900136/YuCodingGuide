@@ -52,3 +52,7 @@
 * [強迫網站轉向到 HTTPS 加密安全連線 \( IIS URL Rewrite \)](tls/jiang-po-wang-zhan-zhuan-xiang-dao-https-jia-mi-an-quan-lian-xian-iis-url-rewrite.md)
 * [Windows 停用 TLS 1.0 之配套作業整理](tls/windows-ting-yong-tls-1.0-zhi-pei-tao-zuo-ye-zheng-li.md)
 
+## Exchange Server
+
+* [更新Exchange Server \(Mail Server\)憑證](exchange-server/geng-xin-exchange-server-mail-server-ping-zheng.md)
+
