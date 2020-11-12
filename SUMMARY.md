@@ -28,12 +28,16 @@
 * [.NET Core IIS](c-asp.net-mvc-core/.net-core-iis.md)
 * [String Parsing](c-asp.net-mvc-core/string-parsing.md)
 * [Array.IndexOf Method](c-asp.net-mvc-core/array.indexof-method.md)
-* [LINQ - 在Where條件式中使用in與not in](c-asp.net-mvc-core/linq-zai-where-tiao-jian-shi-zhong-shi-yong-in-yu-not-in.md)
-* [Linq To Sql - Dynamic OrderBy - Case When](c-asp.net-mvc-core/linq-to-sql-dynamic-orderby-case-when.md)
+* [EFCore 連線字串無法找到之問題](c-asp.net-mvc-core/efcore-lian-xian-zi-chuan-wu-fa-zhao-dao-zhi-wen-ti.md)
 
 ## .NET 5
 
 * [升級ASP.NET Core 3.1至5.0](.net-5/sheng-ji-asp.net-core-3.1-zhi-5.0.md)
+
+## LINQ
+
+* [LINQ - 在Where條件式中使用in與not in](linq/linq-zai-where-tiao-jian-shi-zhong-shi-yong-in-yu-not-in.md)
+* [Linq To Sql - Dynamic OrderBy - Case When](linq/linq-to-sql-dynamic-orderby-case-when.md)
 
 ## SQL
 
