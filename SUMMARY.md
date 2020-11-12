@@ -31,6 +31,10 @@
 * [LINQ - 在Where條件式中使用in與not in](c-asp.net-mvc-core/linq-zai-where-tiao-jian-shi-zhong-shi-yong-in-yu-not-in.md)
 * [Linq To Sql - Dynamic OrderBy - Case When](c-asp.net-mvc-core/linq-to-sql-dynamic-orderby-case-when.md)
 
+## .NET 5
+
+* [升級ASP.NET Core 3.1至5.0](.net-5/sheng-ji-asp.net-core-3.1-zhi-5.0.md)
+
 ## SQL
 
 * [Can a foreign key be NULL and/or duplicate?](sql/can-a-foreign-key-be-null-and-or-duplicate.md)
