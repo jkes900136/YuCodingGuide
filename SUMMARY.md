@@ -10,6 +10,7 @@
 * [Line與WeChat格式轉換](instant-messaging/linewechat-ge-shi.md)
 * [WHATSAPP 入門指南](instant-messaging/whatsapp-ru-men-zhi-nan.md)
 * [開發LINE聊天機器人不可不知的十件事](instant-messaging/kai-fa-line-liao-tian-ji-qi-ren-bu-ke-bu-zhi-de-shi-jian-shi.md)
+* [微軟淘汰Skype P2P型群組](instant-messaging/wei-ruan-tao-tai-skype-p2p-xing-qun-zu.md)
 
 ## Javascript/Node.js <a id="node.js"></a>
 
