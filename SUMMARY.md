@@ -33,8 +33,8 @@
 * [.NET Core IIS](c-asp.net-mvc-core/.net-core-iis.md)
 * [String Parsing](c-asp.net-mvc-core/string-parsing.md)
 * [Array.IndexOf Method](c-asp.net-mvc-core/array.indexof-method.md)
-* [EFCore 連線字串無法找到之問題](c-asp.net-mvc-core/efcore-lian-xian-zi-chuan-wu-fa-zhao-dao-zhi-wen-ti/README.md)
-  * [解決ASP.NET Self referencing loop detected 問題](c-asp.net-mvc-core/efcore-lian-xian-zi-chuan-wu-fa-zhao-dao-zhi-wen-ti/jie-jue-asp.net-self-referencing-loop-detected-wen-ti.md)
+* [解決ASP.NET Self referencing loop detected 問題](c-asp.net-mvc-core/jie-jue-asp.net-self-referencing-loop-detected-wen-ti.md)
+* [EFCore 連線字串無法找到之問題](c-asp.net-mvc-core/efcore-lian-xian-zi-chuan-wu-fa-zhao-dao-zhi-wen-ti.md)
 
 ## .NET 5
 
