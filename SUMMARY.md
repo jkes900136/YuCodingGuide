@@ -15,7 +15,6 @@
 ## Javascript/Node.js <a id="node.js"></a>
 
 * [Node.js TypeScript環境建置](node.js/node.js-typescript-jing-jian-zhi.md)
-* [Angular HttpClient](node.js/angular-httpclient.md)
 * [AJAX and Open Data](node.js/ajax-and-open-data.md)
 * [&lt;input type="datetime-local"&gt;](node.js/ajax-type-ahead.md)
 * [AngularJS - Trigger when radio button is selected](node.js/angularjs-trigger-when-radio-button-is-selected.md)
@@ -23,13 +22,19 @@
 * [Detect HTTP or HTTPS then force HTTPS in JavaScript](node.js/detect-http-or-https-then-force-https-in-javascript.md)
 * [How TO - CSS/JS Modal](node.js/how-to-css-js-modal.md)
 
+## Angular
+
+* [Angular HttpClient](angular/angular-httpclient.md)
+* [在Lazy Loading 情況下共用模組](angular/zai-lazy-loading-qing-kuang-xia-gong-yong-mo-zu.md)
+
 ## C\#/ASP.NET \(MVC\)\(Core\)
 
 * [JSON](c-asp.net-mvc-core/json.md)
 * [.NET Core IIS](c-asp.net-mvc-core/.net-core-iis.md)
 * [String Parsing](c-asp.net-mvc-core/string-parsing.md)
 * [Array.IndexOf Method](c-asp.net-mvc-core/array.indexof-method.md)
-* [EFCore 連線字串無法找到之問題](c-asp.net-mvc-core/efcore-lian-xian-zi-chuan-wu-fa-zhao-dao-zhi-wen-ti.md)
+* [EFCore 連線字串無法找到之問題](c-asp.net-mvc-core/efcore-lian-xian-zi-chuan-wu-fa-zhao-dao-zhi-wen-ti/README.md)
+  * [解決ASP.NET Self referencing loop detected 問題](c-asp.net-mvc-core/efcore-lian-xian-zi-chuan-wu-fa-zhao-dao-zhi-wen-ti/jie-jue-asp.net-self-referencing-loop-detected-wen-ti.md)
 
 ## .NET 5
 
