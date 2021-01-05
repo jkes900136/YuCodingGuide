@@ -21,6 +21,7 @@
 * [Angularjs jQuery Datepicker](node.js/angularjs-jquery-datepicker.md)
 * [Detect HTTP or HTTPS then force HTTPS in JavaScript](node.js/detect-http-or-https-then-force-https-in-javascript.md)
 * [How TO - CSS/JS Modal](node.js/how-to-css-js-modal.md)
+* [JavaScript/AngularJS 變數指派方式比較](node.js/javascriptangularjs-bian-shu-zhi-pai-fang-shi-bi-jiao.md)
 
 ## Angular
 
