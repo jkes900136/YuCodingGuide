@@ -8,6 +8,11 @@
 
 來源變數被指派至對應的目標變數上（通常是把值複製到新記憶體區域）。來源變數只是被複製，來源變數的值不會變。
 
+| 變數類型 | 預設指派方式 |
+| :--- | :--- |
+| 原始型別\(strings, numbers, booleans\) | passed by value |
+| 物件\(objects\) | passed by reference |
+
 {% embed url="https://stackoverflow.com/questions/31548412/angularjs-data-binding-when-passing-a-reference" %}
 
 {% embed url="https://stackoverflow.com/questions/48583501/pass-by-value-in-json-in-angular" %}
