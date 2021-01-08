@@ -50,6 +50,7 @@
 
 * [Can a foreign key be NULL and/or duplicate?](sql/can-a-foreign-key-be-null-and-or-duplicate.md)
 * [SQL Server: How do you remove punctuation from a field?](sql/untitled.md)
+* [從SQL資料庫儲存之HTML字串中擷取特定內容](sql/cong-sql-zi-liao-ku-chu-cun-zhi-html-zi-chuan-zhong-xie-qu-te-ding-nei-rong.md)
 
 ## Git
 
