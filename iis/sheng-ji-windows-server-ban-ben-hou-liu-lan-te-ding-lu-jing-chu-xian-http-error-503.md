@@ -14,3 +14,23 @@
 
 ![&#x95DC;&#x9589;&#x300C;&#x555F;&#x7528;32&#x4F4D;&#x5143;&#x61C9;&#x7528;&#x7A0B;&#x5F0F;&#x300D;](../.gitbook/assets/32b.png)
 
+若網站非得使用其他32位元元件，且沒有使用IIS URL Rewrite 之類的 Module，可以將他們停用
+
+1. **以系統管理員身分**開啟C:\Windows\System32\inetsrv\config\applicationHost.config 檔案
+
+3. 將以下字串
+
+```markup
+<add name="RewriteModule" image="%SystemRoot%\system32\inetsrv\rewrite.dll" />
+```
+
+改為
+
+```markup
+<add name="RewriteModule" image="%SystemRoot%\system32\inetsrv\rewrite.dll" preCondition="bitness64" />
+```
+
+並存檔，如此此模組只會在64位元應用程式執行
+
+
+
