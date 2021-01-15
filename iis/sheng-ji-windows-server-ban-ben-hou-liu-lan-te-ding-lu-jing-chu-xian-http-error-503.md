@@ -1,4 +1,4 @@
-# 升級Windows Server 版本後瀏覽特定路徑出現 HTTP Error 503
+# 升級Windows Server 版本後瀏覽網站特定路徑出現 HTTP Error 503
 
 ![HTTP Error 503](../.gitbook/assets/ying-mu-xie-qu-hua-mian-20210115-100423.png)
 
