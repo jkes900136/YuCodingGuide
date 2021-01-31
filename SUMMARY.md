@@ -80,3 +80,7 @@
 
 * [PRTG 主機網路 SNMP sensor狀態顯示Error](prtg/untitled.md)
 
+## Cisco
+
+* [移除 Cisco 設備密碼](cisco/yi-chu-cisco-she-bei-mi-ma.md)
+
