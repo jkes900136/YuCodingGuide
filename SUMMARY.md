@@ -89,3 +89,7 @@
 
 * [支援 ARM 架構 Windows 的應用程式](windows-on-arm/zhi-yuan-arm-jia-gou-windows-de-ying-yong-cheng-shi.md)
 
+## Windows 10
+
+* [Windows 10 應用程式存取裝置權限之設定](windows-10/windows-10-ying-yong-cheng-shi-cun-qu-zhuang-zhi-quan-xian-zhi-she-ding.md)
+
