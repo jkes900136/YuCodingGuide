@@ -29,6 +29,10 @@
 * [Angular HttpClient](angular/angular-httpclient.md)
 * [在Lazy Loading 情況下共用模組](angular/zai-lazy-loading-qing-kuang-xia-gong-yong-mo-zu.md)
 
+## Vue.js
+
+* [解決Vue.js中文亂碼之問題](vue.js/jie-jue-vue.js-zhong-wen-luan-ma-zhi-wen-ti.md)
+
 ## C\#/ASP.NET \(MVC\)\(Core\)
 
 * [JSON](c-asp.net-mvc-core/json.md)
