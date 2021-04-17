@@ -28,6 +28,7 @@
 
 * [Angular HttpClient](angular/angular-httpclient.md)
 * [在Lazy Loading 情況下共用模組](angular/zai-lazy-loading-qing-kuang-xia-gong-yong-mo-zu.md)
+* [Angular HttpClient 常見用法與撇步](angular/angular-httpclient-chang-jian-yong-fa-yu-pie-bu.md)
 
 ## Vue.js
 
