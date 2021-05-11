@@ -82,6 +82,7 @@
 ## Exchange Server
 
 * [更新Exchange Server \(Mail Server\)憑證](exchange-server/geng-xin-exchange-server-mail-server-ping-zheng.md)
+* [Microsoft 365](exchange-server/microsoft-365.md)
 
 ## PRTG
 
