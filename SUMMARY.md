@@ -43,6 +43,7 @@
 * [解決ASP.NET Self referencing loop detected 問題](c-asp.net-mvc-core/jie-jue-asp.net-self-referencing-loop-detected-wen-ti.md)
 * [EFCore 連線字串無法找到之問題](c-asp.net-mvc-core/efcore-lian-xian-zi-chuan-wu-fa-zhao-dao-zhi-wen-ti.md)
 * [IANA 與 Windows 時區名稱之間互換](c-asp.net-mvc-core/iana-yu-windows-shi-ou-ming-chen-zhi-jian-hu-huan.md)
+* [ASP.NET 專案讀取登入者識別名稱的方式](c-asp.net-mvc-core/asp.net-zhuan-an-du-qu-deng-ru-zhe-shi-bie-ming-chen-de-fang-shi.md)
 
 ## .NET 5
 
