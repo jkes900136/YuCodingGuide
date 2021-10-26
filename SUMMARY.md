@@ -13,11 +13,11 @@
 * [微軟悄悄淘汰Skype P2P型群組功能](instant-messaging/wei-ruan-tao-tai-skype-p2p-xing-qun-zu.md)
 * [Line LIFF 設定方式](instant-messaging/line-liff-she-ding-fang-shi.md)
 
-## Javascript/Node.js <a id="node.js"></a>
+## Javascript/Node.js <a href="node.js" id="node.js"></a>
 
 * [Node.js TypeScript環境建置](node.js/node.js-typescript-jing-jian-zhi.md)
 * [AJAX and Open Data](node.js/ajax-and-open-data.md)
-* [&lt;input type="datetime-local"&gt;](node.js/ajax-type-ahead.md)
+* [\<input type="datetime-local">](node.js/ajax-type-ahead.md)
 * [AngularJS - Trigger when radio button is selected](node.js/angularjs-trigger-when-radio-button-is-selected.md)
 * [Angularjs jQuery Datepicker](node.js/angularjs-jquery-datepicker.md)
 * [Detect HTTP or HTTPS then force HTTPS in JavaScript](node.js/detect-http-or-https-then-force-https-in-javascript.md)
@@ -34,7 +34,7 @@
 
 * [解決Vue.js中文亂碼之問題](vue.js/jie-jue-vue.js-zhong-wen-luan-ma-zhi-wen-ti.md)
 
-## C\#/ASP.NET \(MVC\)\(Core\)
+## C#/ASP.NET (MVC)(Core)
 
 * [JSON](c-asp.net-mvc-core/json.md)
 * [.NET Core IIS](c-asp.net-mvc-core/.net-core-iis.md)
@@ -64,9 +64,9 @@
 
 ## Git
 
-* [git clone: Authentication failed for &lt;URL&gt;](git/git-clone-authentication-failed-for-less-than-url-greater-than.md)
+* [git clone: Authentication failed for \<URL>](git/git-clone-authentication-failed-for-less-than-url-greater-than.md)
 
-## Cloud VM <a id="cloudvm"></a>
+## Cloud VM <a href="cloudvm" id="cloudvm"></a>
 
 * [匯入虛擬磁碟](cloudvm/hui-ru-xu-ni-ci-die.md)
 * [Install and configure Remote Desktop to connect to a Linux VM in Azure](cloudvm/install-and-configure-remote-desktop-to-connect-to-a-linux-vm-in-azure.md)
@@ -75,7 +75,7 @@
 
 * [SSL Server Test](tls/ssl-server-test.md)
 * [SSL For Free](tls/ssl-for-free.md)
-* [強迫網站轉向到 HTTPS 加密安全連線 \( IIS URL Rewrite \)](tls/jiang-po-wang-zhan-zhuan-xiang-dao-https-jia-mi-an-quan-lian-xian-iis-url-rewrite.md)
+* [強迫網站轉向到 HTTPS 加密安全連線 ( IIS URL Rewrite )](tls/jiang-po-wang-zhan-zhuan-xiang-dao-https-jia-mi-an-quan-lian-xian-iis-url-rewrite.md)
 * [Windows 停用 TLS 1.0 之配套作業整理](tls/windows-ting-yong-tls-1.0-zhi-pei-tao-zuo-ye-zheng-li.md)
 
 ## IIS
@@ -84,8 +84,9 @@
 
 ## Exchange Server
 
-* [更新Exchange Server \(Mail Server\)憑證](exchange-server/geng-xin-exchange-server-mail-server-ping-zheng.md)
+* [更新Exchange Server (Mail Server)憑證](exchange-server/geng-xin-exchange-server-mail-server-ping-zheng.md)
 * [Microsoft 365](exchange-server/microsoft-365.md)
+* [Exchange Server 2010 Management Console 出現WinRM client錯誤](exchange-server/exchange-server-2010-management-console-chu-xian-winrm-client-cuo-wu.md)
 
 ## PRTG
 
@@ -102,4 +103,3 @@
 ## Windows 10
 
 * [Windows 10 應用程式存取裝置權限之設定](windows-10/windows-10-ying-yong-cheng-shi-cun-qu-zhuang-zhi-quan-xian-zhi-she-ding.md)
-
