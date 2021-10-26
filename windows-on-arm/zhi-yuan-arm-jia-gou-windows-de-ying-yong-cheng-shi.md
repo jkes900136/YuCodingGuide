@@ -7,17 +7,16 @@
 
 ## 1. 7-Zip
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](<../.gitbook/assets/image (5).png>)
 
 ## 2. CystalDiskInfo
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](<../.gitbook/assets/image (6).png>)
 
 ## 3. Firefox
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](<../.gitbook/assets/image (7).png>)
 
-## 4. Visual Studio Code 
+## 4. Visual Studio Code&#x20;
 
-![](../.gitbook/assets/image%20%288%29.png)
-
+![](<../.gitbook/assets/image (8).png>)
