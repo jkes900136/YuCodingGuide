@@ -13,7 +13,7 @@
 * [微軟悄悄淘汰Skype P2P型群組功能](instant-messaging/wei-ruan-tao-tai-skype-p2p-xing-qun-zu.md)
 * [Line LIFF 設定方式](instant-messaging/line-liff-she-ding-fang-shi.md)
 
-## Javascript/Node.js <a href="node.js" id="node.js"></a>
+## Javascript/Node.js <a href="#node.js" id="node.js"></a>
 
 * [Node.js TypeScript環境建置](node.js/node.js-typescript-jing-jian-zhi.md)
 * [AJAX and Open Data](node.js/ajax-and-open-data.md)
@@ -33,6 +33,7 @@
 ## Vue.js
 
 * [解決Vue.js中文亂碼之問題](vue.js/jie-jue-vue.js-zhong-wen-luan-ma-zhi-wen-ti.md)
+* [在Vue.js內擷取網址查詢參數](vue.js/zai-vue.js-nei-xie-qu-wang-zhi-cha-xun-can-shu.md)
 
 ## C#/ASP.NET (MVC)(Core)
 
@@ -66,7 +67,7 @@
 
 * [git clone: Authentication failed for \<URL>](git/git-clone-authentication-failed-for-less-than-url-greater-than.md)
 
-## Cloud VM <a href="cloudvm" id="cloudvm"></a>
+## Cloud VM <a href="#cloudvm" id="cloudvm"></a>
 
 * [匯入虛擬磁碟](cloudvm/hui-ru-xu-ni-ci-die.md)
 * [Install and configure Remote Desktop to connect to a Linux VM in Azure](cloudvm/install-and-configure-remote-desktop-to-connect-to-a-linux-vm-in-azure.md)
