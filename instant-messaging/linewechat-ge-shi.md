@@ -15,7 +15,7 @@ LINE圖文選單 \[1]
 
 按照畫面上的指示，依據選擇的樣板，填寫點選選單區塊要觸發的動作(action)及內容，這次的專案設定6個區塊在點選後都回覆「文字」。
 
-![](../.gitbook/assets/LINEimgmap.png)
+![](../.gitbook/assets/lineimgmap.png)
 
 圖 一：Line 7種不同分割法的圖文選單
 
@@ -127,9 +127,9 @@ WeChat自定義菜單 \[2]
 
 **{**
 
-**    "type": "text",**
+&#x20;   **"type": "text",**
 
-**    "text": "Hello, world"**
+&#x20;   **"text": "Hello, world"**
 
 **}**
 

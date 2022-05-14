@@ -4,7 +4,7 @@
 
 當裝有Exchange Server 2010的伺服器進行Windows Server版本升級或更新之後，開啟Exchange Management Console可能會遇到以下狀況：
 
-_Connecting to remote server failed with the following error message : The WinRM client received an HTTP server error status (500), but the remote service did not include any other information about the cause fothe failure. _
+_Connecting to remote server failed with the following error message : The WinRM client received an HTTP server error status (500), but the remote service did not include any other information about the cause fothe failure._&#x20;
 
 _It was running the command 'Discover-ExchangeServer -UseWIA $true -SuppressError $true -CurrentVersion 'Version 14.X (Build XXX.X)''._
 

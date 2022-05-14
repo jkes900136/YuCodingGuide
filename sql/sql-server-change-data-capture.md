@@ -2,7 +2,7 @@
 
 SQL Server 從 2008 版本開始提供 Change Data Capture (CDC) 的功能，但只限於 Enterprise 和 Developer Edition 才提供。不過自 SQL Server 2016 開始這個好用的功能下放至 Standard Edition，為開發者帶來不少便利～
 
-![](<../.gitbook/assets/image (18).png>)
+![](<../.gitbook/assets/image (20).png>)
 
 要判斷CDC 是否開啟，可以查詢 sys.databases 資料庫內每一個資料庫名稱對應之 is\_cdc\_enabled 欄位的值，0表示未開啟，1代表開啟。
 
@@ -14,7 +14,7 @@ EXEC sp_cdc_enable_db
 
 ![SQL Server 提供 20 多個 CDC 相關的系統預儲程序](<../.gitbook/assets/image (19).png>)
 
-![開啟 CDC 後可以在系統資料表底下看到一系列 cdc 開頭的資料表](<../.gitbook/assets/image (20).png>)
+![開啟 CDC 後可以在系統資料表底下看到一系列 cdc 開頭的資料表](<../.gitbook/assets/image (18).png>)
 
 接著就要使用 sp\_cdc\_enable\_table 預儲程序設定要 CDC 紀錄的資料表
 

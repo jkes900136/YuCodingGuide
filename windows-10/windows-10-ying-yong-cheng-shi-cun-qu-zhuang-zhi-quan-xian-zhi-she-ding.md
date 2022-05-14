@@ -4,4 +4,4 @@ Windows 10 開始加強了包跨位置、相機、麥克風等裝置，以及語
 
 即便軟硬體正常，特定權限未開，也無法正常使用此權限相關之功能。
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (9).png>)

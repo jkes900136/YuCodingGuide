@@ -10,7 +10,7 @@ LINE 管理LIFF App 的目的是為了在「方便」和「保護」個資取得
 
 ## 1.至Line Login Channel 新增 LIFF應用程式
 
-![](../.gitbook/assets/liffLineLogin.png)
+![](../.gitbook/assets/lifflinelogin.png)
 
 ## ２. 填寫App基本資料
 

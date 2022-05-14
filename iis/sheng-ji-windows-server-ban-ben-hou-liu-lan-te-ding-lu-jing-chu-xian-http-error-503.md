@@ -1,14 +1,14 @@
 # 升級Windows Server 版本後瀏覽網站特定路徑出現 HTTP Error 503
 
-![HTTP Error 503](<../.gitbook/assets/螢幕擷取畫面 2021-01-15 100423.png>)
+![HTTP Error 503](../.gitbook/assets/ying-mu-xie-qu-hua-mian-20210115-100423.png)
 
 當舊的 ASP.NET 網站（IIS應用程式集區）「啟用 32 位元應用程式」被設定成True時，在Server 2008 R2可以正常運作，但升級成Server 2012 R2，會造成集區執行後發生錯誤。
 
 且到事件檢視器/Windows紀錄/應用程式內會發現IIS回報許多錯誤
 
-![IIS連續報錯](../.gitbook/assets/IISERROR.png)
+![IIS連續報錯](../.gitbook/assets/iiserror.png)
 
-![從錯誤訊息可以看出和rewrite模組有關](../.gitbook/assets/W3SVC.png)
+![從錯誤訊息可以看出和rewrite模組有關](../.gitbook/assets/w3svc.png)
 
 若舊應用程式沒有使用到其他「非32位元不可」之模組的話，可以試著讓它在64位元環境跑跑看
 

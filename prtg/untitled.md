@@ -2,4 +2,4 @@
 
 開啟Windows服務尋找需SNMPService，新增機位置至從下列主機接受SNMP封包
 
-![](../.gitbook/assets/PRTGSNMPSettings.png)
+![](../.gitbook/assets/prtgsnmpsettings.png)
