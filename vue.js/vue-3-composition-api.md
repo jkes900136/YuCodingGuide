@@ -1,6 +1,6 @@
 # Vue 3 Composition API
 
-htmlComposition API算是Vue3帶來新的元件(component)實作方式，且不僅Vue3以上的版本能使用，也可以在Vue2.7以上的版本直接撰寫。
+Composition API算是Vue3帶來新的元件(component)實作方式，且不僅Vue3以上的版本能使用，也可以在Vue2.7以上的版本直接撰寫。
 
 如果使用Vue2.6(含)以下的版本呢？
 
@@ -60,4 +60,35 @@ export default {
 <template>
   <button @click="increment">Count is: {{ count }}</button>
 </template>
+```
+
+#### props 和 emits&#x20;
+
+```typescript
+props:['id'], 
+setup(props, context) { 
+console.log(props.id) // 取得 props 
+context.emit('done'); // 回拋事件
+}
+```
+
+#### 設定watch
+
+&#x20;&#x20;
+
+```typescript
+  watch(id, (newValue, oldValue) => { // 監聽變數 
+  }); 
+  watch(()=>obj.id, (newValue, oldValue) => { // 監聽物件屬性
+   });
+ watchEffect(() => { // 自動監控使用到的變數 
+ fetchData(); // 只要 props的id 有變化，就會自動執行 fetchData()
+ // 若 props的id 包在 setTimeout 裡面則無作用
+  }) 
+ 
+ const fetchData = () => { 
+     if (props.id){         
+        ...            
+      }
+  }
 ```
