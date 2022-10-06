@@ -85,7 +85,7 @@ context.emit('done'); // 回拋參數
    });
  watchEffect(() => { // 自動監看使用到的變數 
  fetchData(); // 只要 props的id 有變化，就會自動執行 fetchData()
- // 若 props的id 包在 setTimeout 裡面則無作用
+ // 若 props的id 包在特定的JavaScript原生語法內裡面，則無作用
   }) 
  
  const fetchData = () => { 
