@@ -35,6 +35,7 @@
 * [解決Vue.js中文亂碼之問題](vue.js/jie-jue-vue.js-zhong-wen-luan-ma-zhi-wen-ti.md)
 * [在Vue.js內擷取網址查詢參數](vue.js/zai-vue.js-nei-xie-qu-wang-zhi-cha-xun-can-shu.md)
 * [在Vue 3專案中新增 jQuery 套件](vue.js/zai-vue-3-zhuan-an-zhong-xin-zeng-jquery-tao-jian.md)
+* [Vue 3 Composition API](vue.js/vue-3-composition-api.md)
 
 ## C#/ASP.NET (MVC)(Core)
 
