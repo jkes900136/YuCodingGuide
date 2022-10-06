@@ -64,24 +64,26 @@ export default {
 
 #### props 和 emits&#x20;
 
+以props接受外部參數，透過emits回拋參數
+
 ```typescript
 props:['id'], 
 setup(props, context) { 
-console.log(props.id) // 取得 props 
-context.emit('done'); // 回拋事件
+console.log(props.id) // 接受參數 
+context.emit('done'); // 回拋參數
 }
 ```
 
-#### 設定watch
+#### 好用的watch
 
-&#x20;&#x20;
+當外部元件的變數有變化時，我們撰寫的程式也能很聰明\~ &#x20;
 
 ```typescript
-  watch(id, (newValue, oldValue) => { // 監聽變數 
+  watch(id, (newValue, oldValue) => { // 監看參數 
   }); 
-  watch(()=>obj.id, (newValue, oldValue) => { // 監聽物件屬性
+  watch(()=>obj.id, (newValue, oldValue) => { // 監看物件
    });
- watchEffect(() => { // 自動監控使用到的變數 
+ watchEffect(() => { // 自動監看使用到的變數 
  fetchData(); // 只要 props的id 有變化，就會自動執行 fetchData()
  // 若 props的id 包在 setTimeout 裡面則無作用
   }) 
