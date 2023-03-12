@@ -2,7 +2,7 @@
 
 早期Skype 的語音和視訊通話主打採用 P2P 協議
 
-![2006年10月30日 2.0 Beta 中文版 Skype Network Administrator’s Guide](<../.gitbook/assets/image (2) (1).png>)
+![2006年10月30日 2.0 Beta 中文版 Skype Network Administrator’s Guide](<../.gitbook/assets/image (2) (1) (1).png>)
 
 由於行動上網的普及，使得微軟逐步將Skype各項功能改以雲端服務方式提供，以降低網路流量。
 
