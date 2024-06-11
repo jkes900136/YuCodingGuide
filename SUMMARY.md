@@ -108,3 +108,7 @@
 ## Windows 10
 
 * [Windows 10 應用程式存取裝置權限之設定](windows-10/windows-10-ying-yong-cheng-shi-cun-qu-zhuang-zhi-quan-xian-zhi-she-ding.md)
+
+## Rust
+
+* [對C#開發者入門Rust的第一步](rust/duickai-fa-zhe-ru-men-rust-de-di-yi-bu.md)
