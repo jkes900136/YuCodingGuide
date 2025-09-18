@@ -91,7 +91,7 @@ nav:
     - 'Vue 3 Composition API': vue.js/vue-3-composition-api.md
   - C#/ASP.NET (MVC)(Core):
     - 'JSON': c-asp.net-mvc-core/json.md
-    - '.NET Core IIS': c-asp.net-mvc-core/.net-core-iis.md
+    - '.NET Core IIS': c-asp.net-mvc-core/dotnet-core-iis.md
     - 'String Parsing': c-asp.net-mvc-core/string-parsing.md
     - 'Array.IndexOf Method': c-asp.net-mvc-core/array.indexof-method.md
     - '解決ASP.NET Self referencing loop detected 問題': c-asp.net-mvc-core/jie-jue-asp.net-self-referencing-loop-detected-wen-ti.md
