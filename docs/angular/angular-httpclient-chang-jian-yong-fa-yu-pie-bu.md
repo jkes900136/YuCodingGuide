@@ -1,8 +1,8 @@
-# Angular HttpClient 常�??��??��?�?
+# Angular HttpClient 常見用法與撇步
 
-## ?�入 HttpClientModule
+## 匯入 HttpClientModule
 
-??import 模�??��??��??��?也�??��?！�??�建議HttpClientModule要寫??BrowserModule 之�?，以?��???��窮�?
+在 import 模組的時候，順序也很重要！官方建議HttpClientModule要寫在 BrowserModule 之後，以防後患無窮～
 
 ```typescript
 import { NgModule } from '@angular/core';
@@ -23,9 +23,9 @@ import { HttpClientModule } from '@angular/common/http';
 export class AppModule {}
 ```
 
-## 注入 HttpClient ?��??�件
+## 注入 HttpClient 到各元件
 
-??建�?�?\(constructor\) 引數?�注?�HttpClient?��?作為 ?�用程�?類別?��?�?\(dependency of an application class\)，�?下方程�?碼�??��??�稱?��?ConfigService??
+在 建構式 \(constructor\) 引數內注入HttpClient服務作為 應用程式類別的依賴 \(dependency of an application class\)，像下方程式碼類別的名稱叫做ConfigService。
 
 ```typescript
 import { Injectable } from '@angular/core';
@@ -39,9 +39,9 @@ export class ConfigService {
 
 
 
-## 1.�?HTTP GET ?��?伺�?�?JSON ?�件
+## 1.以 HTTP GET 取得伺服端 JSON 物件
 
- ?��??��?伺�??��? JSON 資�?，get ?�數?�用 any ?�別??
+ 單純取得伺服器的 JSON 資料，get 函數可用 any 型別。
 
 ```typescript
 this.http.get<any>(this.url).subscribe(data => {
@@ -49,13 +49,13 @@ this.http.get<any>(this.url).subscribe(data => {
 });
 ```
 
- 但�??�已經�??�物件�?確屬?��?話�?就直?�替?�傳?�物件建立相對�??��??�\(interface\) ??
+ 但如果已經預知物件明確屬性的話，就直接替回傳的物件建立相對應的介面\(interface\) 。
 
-HttpClient?�設?��? subscribe ?�收?��??��??��? JSON ?��??��?\(deserialization\)，�??�以 JSON.parse\(\) ?�次�????
+HttpClient預設透過 subscribe 接收的資料會先做 JSON 反序列化\(deserialization\)，免除以 JSON.parse\(\) 再次解析。
 
-## 2.�?HTTP GET ?��?伺�?�?JSON ?�件完整??HTTP ?��?
+## 2.以 HTTP GET 取得伺服端 JSON 物件完整的 HTTP 回應
 
-?��?得知?�次HTTP請�????�?�碼???��?標頭等�?訊�?就�??��??�入 options ?�數?�以下�?例�??�接?��??��??��?，�?得�???HttpResponse&lt;any&gt;?��??��??��?
+若要得知單次HTTP請求的 狀態碼、 回應標頭等資訊，就要另外加入 options 參數。以下範例會在接收回應資料時，取得一個 HttpResponse&lt;any&gt;型態的資料：
 
 ```typescript
 this.http.get<any>(this.url, { observe: 'response' }).subscribe(res => {
@@ -67,9 +67,9 @@ this.http.get<any>(this.url, { observe: 'response' }).subscribe(res => {
 });
 ```
 
-## 3.�?HTTP GET ?��?伺�?端�??��??��??��??�容
+## 3.以 HTTP GET 取得伺服端回應資料的原始內容
 
-?�API ?��??�內容為?�JSON ?�件?��?況�??��???HttpClient 不�??��???JSON 序�????�此?��???options ?�數?��? responseType 屬性�??�訴?�傳?��???text \(純�?字\)??
+當API 回應的內容為非JSON 物件的情況，會希望 HttpClient 不要自動做 JSON 序列化 。此時要在 options 參數加上 responseType 屬性，告訴回傳值應為 text \(純文字\)。
 
 ```typescript
 this.http.get(this.url, {observe: 'response', responseType: 'text'})
@@ -79,9 +79,9 @@ this.http.get(this.url, {observe: 'response', responseType: 'text'})
   });
 ```
 
-## 4. �?HTTP POST ?�物件傳?�伺?�端
+## 4. 以 HTTP POST 把物件傳到伺服端
 
-?�種?��?下�?post\(\)?�第二個�??��??��?�?Body ?��??�。HttpClient ?�設?�自?��??�件??JSON 序�??��?並�???Content-Type??application/json ??標頭\(header\)，而接?��??��?也�??�JSON 序�?????
+這種情況下，post\(\)的第二個參數要是請求 Body 的資料。HttpClient 預設會自動把物件做 JSON 序列化，並包含 Content-Type為 application/json 的 標頭\(header\)，而接收回應時也會做JSON 序列化 。
 
 ```typescript
 this.http.post<any>(this.url, { key: value }).subscribe(res => {
@@ -89,9 +89,9 @@ this.http.post<any>(this.url, { key: value }).subscribe(res => {
 });
 ```
 
-## 4. �?HTTP POST ?��?串傳?�伺?�端
+## 4. 以 HTTP POST 把字串傳到伺服端
 
-post\(\)第�??��??�是字串?�話，HttpClient 將�???JSON 序�??��?且發?��?求�?，�??�含 Content-Type ??text/plain ?��??��?且�??��?求�?Content-Type ?��??�傳?��?
+post\(\)第二個參數是字串的話，HttpClient 將不做 JSON 序列化，且發出請求時，會包含 Content-Type 為 text/plain 的標頭，且會按請求的Content-Type 處理回傳值。
 
 ```typescript
 let headers = new HttpHeaders({

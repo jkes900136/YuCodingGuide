@@ -1,4 +1,4 @@
-# HttpClient Authorization 標頭?�報?��??�誤之解決方�?
+# HttpClient Authorization 標頭回報格式錯誤之解決方式
 
 ```csharp
  client.BaseAddress = new Uri(endpointURL);
@@ -12,15 +12,15 @@
     var responseJson = await response.Content.ReadAsStringAsync();
 ```
 
-?�中DefaultRequestHeaders.Add\("Authorization","?��??�容"\)?��?式碼?�設?�檢?��?權內容是?�為Bearer?�頭?�JWT
+其中DefaultRequestHeaders.Add\("Authorization","授權內容"\)的程式碼預設會檢查授權內容是否為Bearer開頭的JWT
 
 ```csharp
 client.DefaultRequestHeaders.Add("Authorization","hugyguygu===");
 ```
 
-?�格式錯誤�??��??��??�誤
+若格式錯誤會產生執行錯誤
 
-不�??��?Add?�為TryAddWithoutValidation，就?�以?��??�個�?�?
+不過若將Add改為TryAddWithoutValidation，就可以避免這個狀況
 
 ```csharp
 client.DefaultRequestHeaders.TryAddWithoutValidation("Authorization", "hugyguygu===");

@@ -1,35 +1,35 @@
-# 從SQL資�?庫儲存�?HTML字串中擷?�特定內�?
+# 從SQL資料庫儲存之HTML字串中擷取特定內容
 
 ## CHARINDEX
 
-CHARINDEX\('f=','&lt;a href='\)?��?算至?�f?��?（�??�f）�?字�??��??�以執行以下查詢�?結�??�是7?��?
+CHARINDEX\('f=','&lt;a href='\)為計算至「f」前（包含f）的字元數，所以執行以下查詢，結果會是7。：
 
 ```sql
 SELECT CHARINDEX('f=','<a href=')
 ```
 
- ?�設要擷?�「href?��?話�??�撰寫�?
+ 假設要擷取「href」的話，可撰寫：
 
 ```sql
 SELECT SUBSTRING('<a href=',CHARINDEX(' ','<a href=')+1,(CHARINDEX('=','<a href=')-1)-CHARINDEX(' ','<a href='))
 ```
 
-?��??�能類推，想從以下HTML字串中擷?�網?�（https://gitbook.com）�?
+由上面能類推，想從以下HTML字串中擷取網址（https://gitbook.com）：
 
 ```markup
-<a target="_blank" href="https://gitbook.com">?��????</a>
+<a target="_blank" href="https://gitbook.com">前往連結</a>
 ```
 
-?�用CHARINDEX尋找?��?字�??��??��?
+利用CHARINDEX尋找特殊字元是關鍵：
 
 ```sql
-SUBSTRING([?��?],CHARINDEX([?��?字串?�特殊�??�]+[?��?字�??�],[?��?]),CHARINDEX(([?��?字串後特殊�??�]-[?��?字�??�],[?��?])-CHARINDEX([?��?字串?�特殊�??�],[?��?])
+SUBSTRING([全文],CHARINDEX([特定字串前特殊字元]+[特殊字元數],[全文]),CHARINDEX(([特定字串後特殊字元]-[特殊字元數],[全文])-CHARINDEX([特定字串前特殊字元],[全文])
 ```
 
-?�照?�容?��??��??�詢語�??��?似�?
+按照內容的不同，查詢語法會類似：
 
 ```sql
-SELECT SUBSTRING([?��?],CHARINDEX('f=',[?��?])+3,(CHARINDEX('>??,[?��?])-4)-CHARINDEX('f=',[?��?]))
+SELECT SUBSTRING([全文],CHARINDEX('f=',[全文])+3,(CHARINDEX('>前',[全文])-4)-CHARINDEX('f=',[全文]))
 FROM [HTMLPageTable]
 ```
 

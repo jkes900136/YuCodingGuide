@@ -1,8 +1,8 @@
-# ASP.NET 專�?讀?�登?�者�??��?稱�??��?
+# ASP.NET 專案讀取登入者識別名稱的方式
 
-User.Identity.Name 定義??System.Web.HttpContext.Current.User ?��??�內
+User.Identity.Name 定義於 System.Web.HttpContext.Current.User 的參考內
 
-將ASP.NET 專�?識別?�稱寫入?�覽?�Session ?�方式�?
+將ASP.NET 專案識別名稱寫入瀏覽器Session 的方式：
 
 ```aspnet
 public static int GetUserId(this HttpContextBase context)

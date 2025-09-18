@@ -1,5 +1,5 @@
-# PRTG 主�?網路 SNMP sensor?�?�顯示Error
+# PRTG 主機網路 SNMP sensor狀態顯示Error
 
-?��?Windows?��?尋找?�SNMPService，新增�?位置?��?下�?主�??��?SNMP封�?
+開啟Windows服務尋找需SNMPService，新增機位置至從下列主機接受SNMP封包
 
-![](assets/prtgsnmpsettings.png)
+![](../.gitbook/assets/prtgsnmpsettings.png)

@@ -1,6 +1,6 @@
 # JSON
 
-C\# ?�件?�常?��??��??�為?��?義Class ?��??��??�是�?
+C\# 物件通常是資料型態為自定義Class 的變數，像是：
 
 ```csharp
  Student studentData = db.Student.Where(s => s.StudentId == studentId).FirstOrDefault();
@@ -17,11 +17,11 @@ public class Student
 }
 ```
 
-?�以使用
+可以使用
 
-SerializeObject\(\)將C\#?�件序�??�為JSON
+SerializeObject\(\)將C\#物件序列化為JSON
 
-DeserializeObject\(\)將JSON?��??��??�C\#?�件
+DeserializeObject\(\)將JSON反序列化為C\#物件
 
 [https://dotblogs.com.tw/berrynote/2016/08/18/200338](https://dotblogs.com.tw/berrynote/2016/08/18/200338)
 

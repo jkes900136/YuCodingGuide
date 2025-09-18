@@ -1,12 +1,12 @@
-# EFCore ???å­—ä¸²?¡æ??¾åˆ°ä¹‹å?é¡?
+# EFCore é€£ç·šå­—ä¸²ç„¡æ³•æ‰¾åˆ°ä¹‹å•é¡Œ
 
-## ?€æ³?
+## ç‹€æ³
 
 Named connection strings are only supported when using 'IConfiguration' and a service provide
 
-## è§??
+## è§£æ³•
 
-?¨Startup.cs?°å?AddDbContext?½å?
+åœ¨Startup.csæ–°å¢AddDbContextå‡½å¼
 
 ```text
  public void ConfigureServices(IServiceCollection services)

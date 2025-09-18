@@ -1,12 +1,12 @@
-# �?��ASP.NET Self referencing loop detected ?��?
+# 解決ASP.NET Self referencing loop detected 問題
 
-&#x20;1\. 移除 Entity Framework 模�?不�?要�??�聯?��?
+&#x20;1\. 移除 Entity Framework 模型不必要的關聯性。
 
-2\. ??Entity Framework ?��???Class檔�??��??�特定屬?��??��???\[JsonIgnore] 屬�?
+2\. 在 Entity Framework 產生的 Class檔案內，於特定屬性上方加入 \[JsonIgnore] 屬性
 
-&#x20;3\. 使用 Partial Class ??MetadataType ?��??��??��?Class之屬??
+&#x20;3\. 使用 Partial Class 和 MetadataType 擴充預先產生Class之屬性
 
-&#x20;4\. ??Global.asax.cs 中�? Application\_Start()  function ?��??��?
+&#x20;4\. 在 Global.asax.cs 中的 Application\_Start()  function 內加入：
 
 ```
 GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;

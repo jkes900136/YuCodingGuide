@@ -1,35 +1,35 @@
-# Line LIFF 設�??��?
+# Line LIFF 設定方式
 
-LIFF ?�稱??LINE Front-end Framework ，顧?�思義就是?�端?��??�\~
+LIFF 全稱為 LINE Front-end Framework ，顧名思義就是前端的框架\~
 
-使用它�?大�?好�??�於?�發?�可以�?得LINE 平台?��?種使?�者�??��??�是 LINE user ID?�暱稱、大?�貼�?..
+使用它最大的好處在於開發者可以取得LINE 平台的各種使用者資料，像是 LINE user ID、暱稱、大頭貼等...
 
-LINE 管�?LIFF App ?�目?�是?��??�「方便」�??��?護」個�??��?平衡XD
+LINE 管理LIFF App 的目的是為了在「方便」和「保護」個資取得平衡XD
 
-2019/11 以�?LIFF App?�新增在 Messageing API Channel ?��?但�?????��?，LIFF ?��??��?LINE?�併Channel ?�能?�政策�??�逐步轉移?�LINE Login Channel ?��?讓登?�、�?權、個�?存�??�能?�併??
+2019/11 以前LIFF App是新增在 Messageing API Channel 內，但從那時開始，LIFF 為了配合LINE整併Channel 功能的政策，而逐步轉移至LINE Login Channel 內，讓登入、授權、個資存取功能合併。
 
-## 1.?�Line Login Channel ?��? LIFF?�用程�?
+## 1.至Line Login Channel 新增 LIFF應用程式
 
-![](assets/lifflinelogin.png)
+![](../.gitbook/assets/lifflinelogin.png)
 
-## �? 填寫App?�本資�?
+## ２. 填寫App基本資料
 
-?�括
+包括
 
-2.1.?�用?�稱(LIFF app name)：�??�發?�辨識�???��?之�?�?
+2.1.應用名稱(LIFF app name)：讓開發者辨識連結目標之名稱
 
-2.2.尺寸(Size)：在LINE ???��?式�??�LIFF???後�??�面?��??�螢幕�??��??��?例�??�滿??Full)?��?(Tall)?��?�?Compact) 三種?�面??
+2.2.尺寸(Size)：在LINE 應用程式開啟LIFF連結後，畫面應佔據螢幕版面的的比例，有滿版(Full)、高(Tall)、緊湊(Compact) 三種版面。
 
-2.3.端�?(Endpoint URL)：�??�欲使用LIFF SDK網�?之網?�
+2.3.端點(Endpoint URL)：開啟欲使用LIFF SDK網站之網址
 
-2.4.範�?(Scopes)：�??�用?�個�??�目，�??�人檔�?(profile)?��??�ID(openid) ?�種
+2.4.範圍(Scopes)：要取用的個資項目，有個人檔案(profile)和開放ID(openid) 兩種
 
-2.5.機器人�???�能(Bot link feature)：可以�?許LIFF ?�發?��?示使?�者�??�相?�Provider 底�??��??��??�帳??
+2.5.機器人連結功能(Bot link feature)：可以允許LIFF 開發者提示使用者加入相同Provider 底下特定的官方帳號
 
-2.6.?��?二維�?Scan QR code)：當?�發?��??�LIFF App ?�使?�QR code 讀?��??��??��???
+2.6.掃描二維碼(Scan QR code)：當開發者要在LIFF App 內使用QR code 讀取功能時須開啟
 
-![](<assets/image (3).png>)
+![](<../.gitbook/assets/image (3).png>)
 
-![](<assets/image (4).png>)
+![](<../.gitbook/assets/image (4).png>)
 
 [https://developers.line.biz/en/docs/liff/overview/](https://developers.line.biz/en/docs/liff/overview/)

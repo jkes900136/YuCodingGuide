@@ -1,18 +1,18 @@
 # Vue 3 Composition API
 
-Composition API算是Vue3帶�??��??�件(component)實�??��?，�?不�?Vue3以�??��??�能使用，�??�以?�Vue2.7以�??��??�直?�撰寫�?
+Composition API算是Vue3帶來新的元件(component)實作方式，且不僅Vue3以上的版本能使用，也可以在Vue2.7以上的版本直接撰寫。
 
-如�?使用Vue2.6(??以�??��??�呢�?
+如果使用Vue2.6(含)以下的版本呢？
 
-@vue/composition-api就是?��?案�??��?，只要以npm安�?它�??��?維護不�??�難事�?
+@vue/composition-api就是舊專案的救星，只要以npm安裝它，古蹟維護不再是難事～
 
 ```powershell
 npm install @vue/composition-api
 ```
 
-?�於一?��??��??�在?��?檔�??�件Single-File Components (SFCs)編寫?�輯程�?碼�?話�??��?將�?輯寫?�\<script setup>?��??�面?�件?��?義在\<template>?��?
+至於一般開發，只在單一檔案元件Single-File Components (SFCs)編寫邏輯程式碼的話，僅須將邏輯寫在\<script setup>內，畫面元件則定義在\<template>內。
 
-如此程�?碼就顯�?簡�?~~?��?~~\~
+如此程式碼就顯得簡潔~~有力~~\~
 
 ```html
 <script setup>
@@ -35,7 +35,7 @@ onMounted(() => {
 </template>
 ```
 
-setup實�?上�?不�?形�?，若要跨檔�??�件?�發程�??�話，就?��?將setup以函?��?形�??�獨?�寫??
+setup實作上有不同形式，若要跨檔案元件開發程式的話，就須要將setup以函數的形式單獨撰寫。
 
 ```html
 <script>
@@ -62,30 +62,30 @@ export default {
 </template>
 ```
 
-#### props ??emits&#x20;
+#### props 和 emits&#x20;
 
-以props?��?外部?�數，透�?emits?��??�數
+以props接受外部參數，透過emits回拋參數
 
 ```typescript
 props:['id'], 
 setup(props, context) { 
-console.log(props.id) // ?��??�數 
-context.emit('done'); // ?��??�數
+console.log(props.id) // 接受參數 
+context.emit('done'); // 回拋參數
 }
 ```
 
-#### 好用?�watch
+#### 好用的watch
 
-?��??��?件�?變數?��??��?，�??�撰寫�?程�?也能很聰?�\~ &#x20;
+當外部元件的變數有變化時，我們撰寫的程式也能很聰明\~ &#x20;
 
 ```typescript
-  watch(id, (newValue, oldValue) => { // ????�數 
+  watch(id, (newValue, oldValue) => { // 監看參數 
   }); 
-  watch(()=>obj.id, (newValue, oldValue) => { // ????�件
+  watch(()=>obj.id, (newValue, oldValue) => { // 監看物件
    });
- watchEffect(() => { // ?��????使用?��?變數 
- fetchData(); // ?��? props?�id ?��??��?就�??��??��? fetchData()
- // ??props?�id ?�在?��??�JavaScript?��?語�??�裡?��??�無作用
+ watchEffect(() => { // 自動監看使用到的變數 
+ fetchData(); // 只要 props的id 有變化，就會自動執行 fetchData()
+ // 若 props的id 包在特定的JavaScript原生語法內裡面，則無作用
   }) 
  
  const fetchData = () => { 

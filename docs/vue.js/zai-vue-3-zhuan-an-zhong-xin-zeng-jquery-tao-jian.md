@@ -1,12 +1,12 @@
-# ?�Vue 3專�?中新�?jQuery 套件
+# 在Vue 3專案中新增 jQuery 套件
 
-?��?案目?��?下使?�npm安�?jQuery�?
+在專案目錄底下使用npm安裝jQuery：
 
 ```powershell
 npm i jquery --save
 ```
 
-並於vue.config.js?��?jQuery ?��?變數?��?�??�?
+並於vue.config.js新增jQuery 全域變數相關宣告：
 
 ```json
 configureWebpack: {
@@ -21,7 +21,7 @@ configureWebpack: {
     }
 ```
 
-?��?�???��?夠�??��?讓tslint TypeScript語�?檢查?�能?�斷jQuery?�部變數?��?，�??��??�tsconfig.json?��??�jQuery?�部語�??��??��?義�?
+有了宣告還不夠～為了讓tslint TypeScript語法檢查器能判斷jQuery內部變數型態，還須要在tsconfig.json內引用jQuery內部語法的型態定義：
 
 ```json
 "types": [
@@ -30,7 +30,7 @@ configureWebpack: {
     ]
 ```
 
-?�此就可以在專�?底�?任�???vue檔�?使用jQuery了。只要�??��??��?件即?��?
+至此就可以在專案底下任一個.vue檔案使用jQuery了。只要事先引入套件即可：
 
 ```typescript
 import $ from 'jquery';

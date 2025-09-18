@@ -1,15 +1,15 @@
-# �?��Vue.js中�?亂碼之�?�?
+# 解決Vue.js中文亂碼之問題
 
-?�網?�以UTF-8編碼?��?上BOM (Byte-Order Mark)?��?常常?�出?��?�?
+當網頁以UTF-8編碼未加上BOM (Byte-Order Mark)時，常常會出現亂碼
 
-![](<assets/image (17).png>)
+![](<../.gitbook/assets/image (17).png>)
 
-使用記�??��??��??�以?�現?��?角�?案編碼為UTF-8
+使用記事本開啟，可以發現右下角檔案編碼為UTF-8
 
-![](<assets/image (14).png>)
+![](<../.gitbook/assets/image (14).png>)
 
-![以�?�?>?��??��??�改?��?編碼](<assets/image (16).png>)
+![以檔案->另存新檔更改文字編碼](<../.gitbook/assets/image (16).png>)
 
-![將編碼改??UTF-8 with BOM ](<assets/image (12).png>)
+![將編碼改為 UTF-8 with BOM ](<../.gitbook/assets/image (12).png>)
 
-![?��??�復�?��](<assets/image (13).png>)
+![文字恢復正常](<../.gitbook/assets/image (13).png>)
