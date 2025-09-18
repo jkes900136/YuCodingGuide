@@ -6,7 +6,7 @@ ASP.NET Core 於localhost使用https連線時，會自動產生一個自我簽�
 
 AuthenticationException: The remote certificate is invalid because of errors in the certificate chain: NotTimeValid&#x20;
 
-解決方式：   刪除 C:\Users\\\[使用者名稱]\AppData\Roaming\ASP.NET\https\ 裡面所有檔案，然後重新啟動專案。若有搭配 Vue ，則連同 Vue 的CLI一同重啟，此時這些檔案會自動重新產生。![](../assets/image (2) (1).png>)
+解決方式：   刪除 C:\Users\\\[使用者名稱]\AppData\Roaming\ASP.NET\https\ 裡面所有檔案，然後重新啟動專案。若有搭配 Vue ，則連同 Vue 的CLI一同重啟，此時這些檔案會自動重新產生。![](../assets/image (2) (1).png)
 
-![](../assets/image (1).png>)
+![](../assets/image (1).png)
 

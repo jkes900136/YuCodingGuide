@@ -17,7 +17,7 @@
 
 切換至 \_**更新(Updates)**\_頁籤，勾選套件並點選 _**更新**_ (Update)按鈕
 
-![使用NuGet將套件都升級至v5.0.0](../assets/image (2).png>)
+![使用NuGet將套件都升級至v5.0.0](../assets/image (2).png)
 
 [https://docs.microsoft.com/zh-tw/aspnet/core/migration/31-to-50?view=aspnetcore-5.0\&tabs=visual-studio#update-net-core-sdk-version-in-globaljson](https://docs.microsoft.com/zh-tw/aspnet/core/migration/31-to-50?view=aspnetcore-5.0\&tabs=visual-studio#update-net-core-sdk-version-in-globaljson)
 

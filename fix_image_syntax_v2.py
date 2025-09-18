@@ -20,11 +20,13 @@ def fix_image_syntax_in_file(file_path):
         
         original_content = content
         
-        # 修正 ![...](../assets/...>) 的語法錯誤
-        # 移除圖片路徑後多餘的 >)
-        # 匹配各種圖片格式
-        pattern = r'!\[([^\]]*)\]\((\.\./assets/[^)]+\.(png|jpg|jpeg|gif))>\)'
-        content = re.sub(pattern, r'![\1](\2)', content)
+        # 使用更簡單的字串替換方式
+        # 修正各種圖片格式的語法錯誤
+        extensions = ['.png>', '.jpg>', '.jpeg>', '.gif>']
+        
+        for ext in extensions:
+            correct_ext = ext[:-1]  # 移除最後的 >
+            content = content.replace(ext + ')', correct_ext + ')')
         
         # 檢查是否有修改
         if content != original_content:
@@ -74,10 +76,10 @@ def main():
     script_dir = Path(__file__).parent
     docs_dir = script_dir / "docs"
     
-    print("修正 Markdown 圖片語法工具")
+    print("修正 Markdown 圖片語法工具 v2")
     print("=" * 40)
     print(f"目標目錄: {docs_dir}")
-    print(f"修正模式: 移除多餘的 >) 符號")
+    print(f"修正模式: 移除 .png>) .jpg>) 等多餘符號")
     print("=" * 40)
     
     find_and_fix_markdown_files(docs_dir)

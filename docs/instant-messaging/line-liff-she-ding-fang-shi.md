@@ -28,8 +28,8 @@ LINE 管理LIFF App 的目的是為了在「方便」和「保護」個資取得
 
 2.6.掃描二維碼(Scan QR code)：當開發者要在LIFF App 內使用QR code 讀取功能時須開啟
 
-![](../assets/image (3).png>)
+![](../assets/image (3).png)
 
-![](../assets/image (4).png>)
+![](../assets/image (4).png)
 
 [https://developers.line.biz/en/docs/liff/overview/](https://developers.line.biz/en/docs/liff/overview/)

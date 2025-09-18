@@ -10,4 +10,4 @@ _It was running the command 'Discover-ExchangeServer -UseWIA $true -SuppressErro
 
 這代表WinRM IIS Extension（擴充套件）在升級Windows時被解除安裝了，需要到伺服器管理員->新增角色與功能將它裝回去～
 
-![](../assets/image (25).png>)![](../assets/image (26).png>)![](../assets/image (23).png>)![](../assets/image (27).png>)![](../assets/image (24).png>)![](../assets/image (22).png>)
+![](../assets/image (25).png)![](../assets/image (26).png)![](../assets/image (23).png)![](../assets/image (27).png)![](../assets/image (24).png)![](../assets/image (22).png)
