@@ -101,7 +101,7 @@ nav:
     - 'HttpClient Authorization 標頭回報格式錯誤之解決方式': c-asp.net-mvc-core/httpclient-authorization-biao-tou-hui-bao-ge-shi-cuo-wu-zhi-jie-jue-fang-shi.md
     - '開發環境網站 SSL 憑證無效解決方式': c-asp.net-mvc-core/kai-fa-huan-jing-wang-zhan-ssl-ping-zheng-wu-xiao-jie-jue-fang-shi.md
   - .NET 5:
-    - '升級ASP.NET Core 3.1至5.0': .net-5/sheng-ji-asp.net-core-3.1-zhi-5.0.md
+    - '升級ASP.NET Core 3.1至5.0': dotnet-5/sheng-ji-asp.net-core-3.1-zhi-5.0.md
   - LINQ:
     - 'LINQ - 在Where條件式中使用in與not in': linq/linq-zai-where-tiao-jian-shi-zhong-shi-yong-in-yu-not-in.md
     - 'Linq To Sql - Dynamic OrderBy - Case When': linq/linq-to-sql-dynamic-orderby-case-when.md
