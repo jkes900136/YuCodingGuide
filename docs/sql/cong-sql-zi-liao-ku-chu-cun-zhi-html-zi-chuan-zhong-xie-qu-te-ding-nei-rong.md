@@ -1,0 +1,37 @@
+# х╛ЮSQLш│Зц?х║лхД▓хнШф?HTMLхнЧф╕▓ф╕нцУ╖?ЦчЙ╣хоЪхЕзхо?
+
+## CHARINDEX
+
+CHARINDEX\('f=','&lt;a href='\)?║ш?чоЧшЗ│?Мf?Нх?я╝Их??лfя╝Йч?хнЧх??╕я??Аф╗ехЯ╖шбМф╗еф╕ЛцЯешйвя?ч╡Рц??ГцШп7?Вя?
+
+```sql
+SELECT CHARINDEX('f=','<a href=')
+```
+
+ ?ЗшиншжБцУ╖?ЦуАМhref?Нч?шй▒я??пцТ░хпля?
+
+```sql
+SELECT SUBSTRING('<a href=',CHARINDEX(' ','<a href=')+1,(CHARINDEX('=','<a href=')-1)-CHARINDEX(' ','<a href='))
+```
+
+?▒ф??вшГ╜щбЮцОия╝МцГ│х╛Юф╗еф╕ЛHTMLхнЧф╕▓ф╕нцУ╖?Цч╢▓?Ая╝Иhttps://gitbook.comя╝Йя?
+
+```markup
+<a target="_blank" href="https://gitbook.com">?Нх????</a>
+```
+
+?йчФиCHARINDEXх░ЛцЙ╛?╣ц?хнЧх??пщ??╡я?
+
+```sql
+SUBSTRING([?иц?],CHARINDEX([?╣х?хнЧф╕▓?НчЙ╣цоКх??Г]+[?╣ц?хнЧх??╕],[?иц?]),CHARINDEX(([?╣х?хнЧф╕▓х╛МчЙ╣цоКх??Г]-[?╣ц?хнЧх??╕],[?иц?])-CHARINDEX([?╣х?хнЧф╕▓?НчЙ╣цоКх??Г],[?иц?])
+```
+
+?ЙчЕз?зхо╣?Дф??Мя??ешйвшкЮц??Гщ?ф╝╝я?
+
+```sql
+SELECT SUBSTRING([?иц?],CHARINDEX('f=',[?иц?])+3,(CHARINDEX('>??,[?иц?])-4)-CHARINDEX('f=',[?иц?]))
+FROM [HTMLPageTable]
+```
+
+
+

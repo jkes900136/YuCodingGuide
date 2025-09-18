@@ -1,0 +1,5 @@
+# PRTG ä¸»æ?ç¶²è·¯ SNMP sensor?€?‹é¡¯ç¤ºError
+
+?‹å?Windows?å?å°‹æ‰¾?€SNMPServiceï¼Œæ–°å¢æ?ä½ç½®?³å?ä¸‹å?ä¸»æ??¥å?SNMPå°å?
+
+![](assets/prtgsnmpsettings.png)
