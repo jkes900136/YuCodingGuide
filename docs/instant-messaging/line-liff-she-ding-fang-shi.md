@@ -10,7 +10,7 @@ LINE 管理LIFF App 的目的是為了在「方便」和「保護」個資取得
 
 ## 1.至Line Login Channel 新增 LIFF應用程式
 
-![](../.gitbook/assets/lifflinelogin.png)
+![](../assets/lifflinelogin.png)
 
 ## ２. 填寫App基本資料
 
@@ -28,8 +28,8 @@ LINE 管理LIFF App 的目的是為了在「方便」和「保護」個資取得
 
 2.6.掃描二維碼(Scan QR code)：當開發者要在LIFF App 內使用QR code 讀取功能時須開啟
 
-![](<../.gitbook/assets/image (3).png>)
+![](../assets/image (3).png>)
 
-![](<../.gitbook/assets/image (4).png>)
+![](../assets/image (4).png>)
 
 [https://developers.line.biz/en/docs/liff/overview/](https://developers.line.biz/en/docs/liff/overview/)

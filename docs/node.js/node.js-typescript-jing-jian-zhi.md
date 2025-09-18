@@ -8,7 +8,7 @@ Node.js是一個能夠在伺服端運行JavaScript的執行環境；而近年來
 
  
 
-![](../.gitbook/assets/powershell.png)
+![](../assets/powershell.png)
 
 對於現代的程式設計師來說，沒有甚麼事是比利用套件管理工具更重要的事了，NPM就是一套可以讓開發人員事半功倍的服務，只要輸入npm init，NPM會自動產生一個名為package.json的檔案，裡面記載各套件名稱與版本。
 
